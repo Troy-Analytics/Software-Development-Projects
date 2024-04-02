@@ -8,7 +8,7 @@ This repository is a curated collection of my software development endeavors, hi
 
 ## Project Showcase
 Here's a glimpse of the diverse projects you'll find in this portfolio(more to come):
-##### HTML
+##### [HTML](https://github.com/Troy-Analytics/Software-Development-Projects/tree/c9d3230ea3e8ace9de08fafbf9cce91207beae16/HTML)
 1. **Cat Photo App:** A fun way to showcase my web development skills but also my love for cats.
 
 
