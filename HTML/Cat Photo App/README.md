@@ -12,10 +12,10 @@ Enhance user experience with interactive elements like buttons or links.
 ## Technologies Used
 HTML: For structuring the web pages and defining the app layout.
 ## Getting Started
-To get started with the Cat Photo App project, simply clone this repository to your local machine and open the [index.html] file in your preferred web browser. You can then explore the cat photos and enjoy the app!
+To get started with the Cat Photo App project, simply clone this repository to your local machine and open the [index.html](https://github.com/Troy-Analytics/Software-Development-Projects/blob/main/HTML/Cat%20Photo%20App/Code/cat_photo_app.html) file in your preferred web browser. You can then explore the cat photos and enjoy the app!
 
 ## Contributing
 If you'd like to contribute to the development of the Cat Photo App project, feel free to fork this repository, make your changes, and submit a pull request. Contributions are always welcome!
 
 ## License
-This project is licensed under the MIT License. Feel free to modify and distribute the code for your own purposes.
+No Copyright [freecodecamp.org](https://www.freecodecamp.org/). Feel free to modify and distribute the code for your own purposes.
