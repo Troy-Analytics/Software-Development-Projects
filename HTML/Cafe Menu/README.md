@@ -13,7 +13,7 @@ Implement responsive design techniques to ensure the web page looks great and fu
 HTML: For structuring the web page content and defining the layout.
 CSS: For styling the web page, including typography, colors, layout, and visual effects.
 
-To get started with the Cafe Menu Web Page project, simply clone this repository to your local machine and open the index.html file in your preferred web browser. You can then explore the cafe menu and experience the web page firsthand!
+To get started with the Cafe Menu Web Page project, simply clone this repository to your local machine and open the [index.html](https://github.com/Troy-Analytics/Software-Development-Projects/blob/main/HTML/Cafe%20Menu/CafeMenu.html) file in your preferred web browser. You can then explore the cafe menu and experience the web page firsthand!
 
 ## Contributing
 If you'd like to contribute to the development of the Cafe Menu Web Page project, feel free to fork this repository, make your changes, and submit a pull request. Contributions are always welcome!
