@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="sportssurvey.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <section>
+    <h1 id="title">Favorite Sports Survey</h1>
+    <p id="description">We would love to know your favorite sport</p>
+    <form id="survey-form">
+      <label id="name-label">Name
+        <input class="block" id="name" type="text" placeholder="Your name goes here" required>
+      </label>
+      <label id="email-label">Email
+        <input class="block" id="email" type="email" placeholder="Your email goes here" required>
+      </label>
+      <label id="age-label">Age (optional)
+        <input class="block" id="number" type="number" min="7" max="120" placeholder="Age">
+      </label>
+      <label id="gender">Gender
+        <select id="dropdown">
+          <option value="">(Select one)</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+      </label>
+      <label id="number-label">Number (optional)
+        <input class="block" id="number-label" type="number" placeholder="Number">
+      </label>
+
+      <fieldset>
+        <legend>Would you recommend a sport to another person?</legend>
+        <label for="yes">Yes<input type="radio" id="yes" name="recommendation" checked value="yes" class="inline"></label>
+        <label for="no">No<input type="radio" id="no" value="no" name="recommendation" class="inline"></label>
+        <label for="maybe">Maybe<input type="radio" id="maybe" value="maybe" name="recommendation" class="inline"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How do you like to watch sports?</legend>
+        <label>Live TV<input type="checkbox" class="inline" value="live_tv" checked></label>
+        <label>Stadium/Arena<input type="checkbox" class="inline" value="stadium-arena"></label>
+        <label>Radio<input type="checkbox" class="inline" value="radio"></label>
+        <label>Recap<input type="checkbox" class="inline" value="recap"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What sports do you like (select all that apply)</legend>
+        <label>American Football<input type="checkbox" class="inline"         value="american_football"></label>
+        <label>Basketball<input type="checkbox" class="inline" value="basketball"></label>
+        <label>Baseball<input type="checkbox" class="inline" value="baseball"></label>
+        <label>Hockey<input type="checkbox" class="inline" value="hockey"></label>
+        <label>Soccer<input type="checkbox" class="inline" value="soccer"></label>
+        <label>Combat Sports<input type="checkbox" class="inline" value="combat_sports"></label>
+        <label>Golf<input type="checkbox" class="inline" value="golf"></label>
+        <label>Tennis<input type="checkbox" class="inline" value="tennis"></label>
+        <label>Motorsports<input type="checkbox" class="inline" value="motorsports"></label>
+        <label>Volleyball<input type="checkbox" class="inline" value="volleyball"></label>
+        <label>Rugby<input type="checkbox" class="inline" value="rugby"></label>
+        <label>Other<input type="checkbox" class="inline" value="other"></label>
+      </fieldset>
+
+      <fieldset>
+        <label for="comments">Tell us why you love the sports:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="I love sports because..."></textarea>
+        </label>
+        </fieldset>
+         <input id="submit" type="submit" value="Submit" />
+
+      
+    </form>
+  </section>
+</body>
+</html>
+
+
+
+
