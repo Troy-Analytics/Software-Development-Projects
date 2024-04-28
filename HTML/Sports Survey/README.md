@@ -1,12 +1,6 @@
 # Sports Survey Project
 This is a simple web-based survey project focused on collecting information about users' favorite sports.
 
-## Table of Contents
-Project Description
-Features
-Usage
-Contributing
-License
 
 ## Project Description
 The Sports Survey Project is a web-based survey designed to gather information about users' favorite sports. It includes various questions about sports preferences, watching habits, and demographic information.
