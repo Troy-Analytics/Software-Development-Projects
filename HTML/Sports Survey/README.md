@@ -1,4 +1,4 @@
-### Sports Survey Project
+# Sports Survey Project
 This is a simple web-based survey project focused on collecting information about users' favorite sports.
 
 ## Table of Contents
