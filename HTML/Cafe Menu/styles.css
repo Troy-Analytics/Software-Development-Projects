@@ -1,96 +1,113 @@
+/* Body styles */
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
-  padding: 20px;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* Background image */
+  font-family: sans-serif; /* Font family */
+  padding: 20px; /* Padding */
 }
 
+/* Heading styles */
 h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  font-size: 40px; /* Font size */
+  margin-top: 0; /* Margin top */
+  margin-bottom: 15px; /* Margin bottom */
 }
 
+/* Sub-heading styles */
 h2 {
-  font-size: 30px;
+  font-size: 30px; /* Font size */
 }
 
+/* Established class styles */
 .established {
-  font-style: italic;
+  font-style: italic; /* Italic font style */
 }
 
+/* Center align headings and paragraphs */
 h1, h2, p {
-  text-align: center;
+  text-align: center; /* Text alignment */
 }
 
+/* Menu container styles */
 .menu {
-  width: 80%;
-  background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
+  width: 80%; /* Width */
+  background-color: burlywood; /* Background color */
+  margin-left: auto; /* Margin left */
+  margin-right: auto; /* Margin right */
+  padding: 20px; /* Padding */
+  max-width: 500px; /* Maximum width */
 }
 
+/* Image styles */
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -25px;
+  display: block; /* Display as block */
+  margin-left: auto; /* Margin left */
+  margin-right: auto; /* Margin right */
+  margin-top: -25px; /* Negative margin top */
 }
 
+/* Horizontal rule styles */
 hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
+  height: 2px; /* Height */
+  background-color: brown; /* Background color */
+  border-color: brown; /* Border color */
 }
 
+/* Bottom line margin top */
 .bottom-line {
-  margin-top: 25px;
+  margin-top: 25px; /* Margin top */
 }
 
+/* Heading font family */
 h1, h2 {
-  font-family: Impact, serif;
+  font-family: Impact, serif; /* Font family */
 }
 
+/* Item paragraph styles */
 .item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
+  display: inline-block; /* Display as inline block */
+  margin-top: 5px; /* Margin top */
+  margin-bottom: 5px; /* Margin bottom */
+  font-size: 18px; /* Font size */
 }
 
+/* Flavor and dessert paragraph styles */
 .flavor, .dessert {
-  text-align: left;
-  width: 75%;
+  text-align: left; /* Text alignment */
+  width: 75%; /* Width */
 }
 
+/* Price paragraph styles */
 .price {
-  text-align: right;
-  width: 25%;
+  text-align: right; /* Text alignment */
+  width: 25%; /* Width */
 }
 
-/* FOOTER */
-
+/* Footer styles */
 footer {
-  font-size: 14px;
+  font-size: 14px; /* Font size */
 }
 
+/* Address paragraph styles */
 .address {
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Margin bottom */
 }
 
+/* Anchor link styles */
 a {
-  color: black;
+  color: black; /* Color */
 }
 
+/* Visited anchor link styles */
 a:visited {
-  color: black;
+  color: black; /* Color */
 }
 
+/* Hover anchor link styles */
 a:hover {
-  color: brown;
+  color: brown; /* Color */
 }
 
+/* Active anchor link styles */
 a:active {
-  color: brown;
+  color: brown; /* Color */
 }
