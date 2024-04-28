@@ -1,84 +1,93 @@
+/* Body styles */
 body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: #1b1b32;
-  color: #f5f6f7;
-  font-family: Tahoma;
-  font-size: 16px;
-  }
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* No margin */
+  background-color: #1b1b32; /* Background color */
+  color: #f5f6f7; /* Text color */
+  font-family: Tahoma; /* Font family */
+  font-size: 16px; /* Font size */
+}
 
+/* Heading and paragraph styles */
 h1, p {
-  margin: 1em auto;
-  text-align: center;
+  margin: 1em auto; /* Margin top and bottom, auto left and right */
+  text-align: center; /* Center align */
 }
 
+/* Form styles */
 form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;
+  width: 60vw; /* 60% of viewport width */
+  max-width: 500px; /* Maximum width */
+  min-width: 300px; /* Minimum width */
+  margin: 0 auto; /* Center align horizontally */
+  padding-bottom: 2em; /* Padding bottom */
 }
 
+/* Fieldset styles */
 fieldset {
-  border: none;
-  padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
+  border: none; /* No border */
+  padding: 2rem 0; /* Padding top and bottom */
+  border-bottom: 3px solid #3b3b4f; /* Border bottom */
 }
 
+/* Remove border bottom from last fieldset */
 fieldset:last-of-type {
-  border-bottom: none;
+  border-bottom: none; /* No border bottom */
 }
 
+/* Label styles */
 label {
-  display: block;
-  margin: 0.5rem 0;
+  display: block; /* Display as block */
+  margin: 0.5rem 0; /* Margin */
 }
 
+/* Input, textarea, select styles */
 input,
 textarea,
 select {
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
+  margin: 10px 0 0 0; /* Margin */
+  width: 100%; /* Full width */
+  min-height: 2em; /* Minimum height */
 }
 
+/* Input and textarea styles */
 input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
+  background-color: #0a0a23; /* Background color */
+  border: 1px solid #0a0a23; /* Border */
+  color: #ffffff; /* Text color */
 }
 
+/* Inline element styles */
 .inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
+  width: unset; /* Reset width */
+  margin: 0 0.5em 0 0; /* Margin */
+  vertical-align: middle; /* Align vertically middle */
 }
 
+/* Submit button styles */
 input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-  min-width: 300px;
+  display: block; /* Display as block */
+  width: 60%; /* Width */
+  margin: 1em auto; /* Margin */
+  height: 2em; /* Height */
+  font-size: 1.1rem; /* Font size */
+  background-color: #3b3b4f; /* Background color */
+  border-color: white; /* Border color */
+  min-width: 300px; /* Minimum width */
 }
 
+/* File input styles */
 input[type="file"] {
-  padding: 1px 2px;
+  padding: 1px 2px; /* Padding */
 }
 
-.inline{
-  display: inline; 
+/* Inline element styles */
+.inline {
+  display: inline; /* Display inline */
 }
 
-a{
-  color:#dfdfe2
+/* Anchor link styles */
+a {
+  color: #dfdfe2; /* Link color */
 }
-
-
-
-
