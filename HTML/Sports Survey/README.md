@@ -13,7 +13,7 @@ Uses HTML and CSS for the front-end layout and styling.
 Provides a simple and intuitive user interface for answering survey questions.
 
 ## Usage
-To use this project, simply open the index.html file in a web browser. Users can then fill out the survey form with their information and preferences. The form data can be submitted to a backend server for processing, but for this example, it's just a static HTML form.
+To use this project, simply open the [index.html](https://github.com/Troy-Analytics/Software-Development-Projects/blob/main/HTML/Sports%20Survey/sportssurvey.html) file in a web browser. Users can then fill out the survey form with their information and preferences. The form data can be submitted to a backend server for processing, but for this example, it's just a static HTML form.
 
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, feel free to fork this repository, make your changes, and submit a pull request. Please follow the project's coding style and guidelines.
