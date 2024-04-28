@@ -18,4 +18,4 @@ To use this project, simply open the index.html file in a web browser. Users can
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, feel free to fork this repository, make your changes, and submit a pull request. Please follow the project's coding style and guidelines.
 
-License
+## License
