@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
+  <!-- Metadata -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Link to external stylesheet -->
   <link href="sportssurvey.css" rel="stylesheet"/>
 </head>
 
 <body>
+  
+  <!-- Main section -->
   <section>
+    
+    <!-- Survey title -->
     <h1 id="title">Favorite Sports Survey</h1>
+    
+    <!-- Survey description -->
     <p id="description">We would love to know your favorite sport</p>
+    
+    <!-- Survey form -->
     <form id="survey-form">
+      
+      <!-- Name input -->
       <label id="name-label">Name
         <input class="block" id="name" type="text" placeholder="Your name goes here" required>
       </label>
+      
+      <!-- Email input -->
       <label id="email-label">Email
         <input class="block" id="email" type="email" placeholder="Your email goes here" required>
       </label>
+      
+      <!-- Age input (optional) -->
       <label id="age-label">Age (optional)
         <input class="block" id="number" type="number" min="7" max="120" placeholder="Age">
       </label>
+     
+      <!-- Gender selection -->
       <label id="gender">Gender
         <select id="dropdown">
           <option value="">(Select one)</option>
@@ -27,28 +47,39 @@
           <option value="2">Female</option>
         </select>
       </label>
+      
+      <!-- Number input (optional) -->
       <label id="number-label">Number (optional)
         <input class="block" id="number-label" type="number" placeholder="Number">
       </label>
 
+      <!-- Recommendation fieldset -->
       <fieldset>
         <legend>Would you recommend a sport to another person?</legend>
+       
+        <!-- Radio buttons for recommendation -->
         <label for="yes">Yes<input type="radio" id="yes" name="recommendation" checked value="yes" class="inline"></label>
         <label for="no">No<input type="radio" id="no" value="no" name="recommendation" class="inline"></label>
         <label for="maybe">Maybe<input type="radio" id="maybe" value="maybe" name="recommendation" class="inline"></label>
       </fieldset>
 
+      <!-- How to watch sports fieldset -->
       <fieldset>
         <legend>How do you like to watch sports?</legend>
+        
+        <!-- Checkboxes for watching preferences -->
         <label>Live TV<input type="checkbox" class="inline" value="live_tv" checked></label>
         <label>Stadium/Arena<input type="checkbox" class="inline" value="stadium-arena"></label>
         <label>Radio<input type="checkbox" class="inline" value="radio"></label>
         <label>Recap<input type="checkbox" class="inline" value="recap"></label>
       </fieldset>
 
+      <!-- Favorite sports fieldset -->
       <fieldset>
         <legend>What sports do you like (select all that apply)</legend>
-        <label>American Football<input type="checkbox" class="inline"         value="american_football"></label>
+        
+        <!-- Checkboxes for favorite sports -->
+        <label>American Football<input type="checkbox" class="inline" value="american_football"></label>
         <label>Basketball<input type="checkbox" class="inline" value="basketball"></label>
         <label>Baseball<input type="checkbox" class="inline" value="baseball"></label>
         <label>Hockey<input type="checkbox" class="inline" value="hockey"></label>
@@ -62,14 +93,15 @@
         <label>Other<input type="checkbox" class="inline" value="other"></label>
       </fieldset>
 
+      <!-- Comments fieldset -->
       <fieldset>
         <label for="comments">Tell us why you love the sports:
           <textarea id="comments" name="comments" rows="3" cols="30" placeholder="I love sports because..."></textarea>
         </label>
-        </fieldset>
-         <input id="submit" type="submit" value="Submit" />
+      </fieldset>
 
-      
+      <!-- Submit button -->
+      <input id="submit" type="submit" value="Submit" />
     </form>
   </section>
 </body>
